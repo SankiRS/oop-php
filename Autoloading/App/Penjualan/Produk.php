@@ -50,4 +50,10 @@ Abstract class Produk{
     public function getDiskon(){
         return $this->diskon;
     }
+
+    public function getLabel(){
+        return "$this->penulis, $this->penerbit";
+    }
+
+    abstract public function getInfo();
 }
