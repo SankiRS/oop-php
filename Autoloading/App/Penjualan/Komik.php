@@ -1,7 +1,5 @@
 <?php 
 
-require "Produk.php";
-
 class Komik extends Produk{
     public $jmlHalaman;
 
